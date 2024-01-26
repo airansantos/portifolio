@@ -1,0 +1,155 @@
+main{
+    height: 100%;
+    padding: 0;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.meContainer{
+    display: flex;
+    max-width: 400px;
+    flex-direction: column;
+    
+}
+.meContact{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.meContact a{
+    margin: 0 15px;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.meContact a:hover{
+    opacity: 1;
+}
+.me{
+    max-width: 200px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    justify-content: center;
+    margin: 0;
+}
+#meHtml{
+    border: 3px solid rgb(212, 91, 10);
+}
+#meCss{
+    border: 3px solid rgb(51, 144, 231);
+}
+#meJs{
+    border: 3px solid rgb(213, 228, 13);
+}
+#meReact{
+    border: 3px solid rgb(118, 185, 224);
+}
+#meGit{
+    border: 3px solid rgb(212, 91, 10);
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    height: 55px;
+}
+.skills p{
+    font-weight: bold;
+    font-size: x-large;
+    display: flex;
+    padding: 1rem 0.5rem;
+    border-right: 1px solid #333;
+    align-items: center;
+}
+.skills img{
+    margin: 5px 9px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    opacity: 0.7;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.skills img:hover{
+    opacity: 1;
+}
+
+.resum{
+    margin: 0 0 2rem 0;
+}
+#texto{
+    padding: 0.5rem;
+    margin: 1rem 0;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+}
+.spanInfoHtml{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 15px;
+    border-left: 4px solid rgb(212, 91, 10);
+    border-right: 4px solid rgb(212, 91, 10);
+    border-bottom: 4px solid rgb(212, 91, 10);
+}
+.spanInfoCss{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 15px;
+    border-left: 4px solid rgb(51, 144, 231);
+    border-right: 4px solid rgb(51, 144, 231);
+    border-bottom: 4px solid rgb(51, 144, 231);
+}
+.spanInfoJs{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 15px;
+    border-left: 4px solid rgb(213, 228, 13);
+    border-right: 4px solid rgb(213, 228, 13);
+    border-bottom: 4px solid rgb(213, 228, 13);
+}
+.spanInfoReact{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 15px;
+    border-left: 4px solid rgb(118, 185, 224);
+    border-right: 4px solid rgb(118, 185, 224);
+    border-bottom: 4px solid rgb(118, 185, 224);
+}
+.spanInfoGit{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 15px;
+    border-left: 4px solid rgb(231, 79, 52);
+    border-right: 4px solid rgb(231, 79, 52);
+    border-bottom: 4px solid rgb(231, 79, 52);
+}
+.spanBtn{
+    display: none;
+    align-self: flex-end;
+    color: #fff;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #333;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.8;
+}
+.spanBtn:hover{
+    opacity: 1;
+}
+
+#hideBtn{
+    display: none;
+}
+
+#spanBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
