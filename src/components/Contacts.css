@@ -1,0 +1,82 @@
+#contatos{
+    margin-top: 3rem;
+    display: flex;
+    max-width:100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contacts-main{
+    display: flex;
+    width:450px;
+    flex-direction: column;
+    align-self: center;
+}
+#me-container{
+    max-width: 100%;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+.contacts-container{
+    padding: 0 2rem 2rem 2rem;
+    display: flex;
+    width: 450px;
+    align-self: center;
+    flex-direction: column;
+    border-bottom: 4px solid blue;
+    border-left: 4px solid blue;
+    border-right: 4px solid blue;
+    border-radius: 15px;
+
+}
+#me-cont{
+    border: 4px solid blue;
+    max-width: 300px;
+    margin: 1rem 0 0 0;
+    border-radius: 50%;
+}
+#me-links{
+    gap: 1rem;
+    margin: 0;
+    display: flex;
+    align-self: self-end;
+    margin-bottom: 1rem;
+}
+#me-links a{
+    text-decoration: none;
+    opacity: 1;
+    transition: 0.3s;
+}
+#me-links a:hover{
+    opacity: 0.7;
+}
+
+.email{
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.email:hover{
+    color: gray;
+}
+.tel{
+    display: flex;
+    color: #fff;
+    margin-top: 1rem;
+    align-items: center;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.tel:hover{
+    color: gray;
+}
+#what, #emi{
+    margin-right: 10px;
+    font-size:xx-large;
+}
+
+

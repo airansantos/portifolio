@@ -1,9 +1,8 @@
 main{
-    height: 100%;
+    height: calc(100vh - 120px);
     padding: 0;
-    margin: 30px;
     display: flex;
-    align-items: center;
+    margin-top: 30px;
     justify-content: center;
 }
 .meContainer{
@@ -19,33 +18,33 @@ main{
 }
 .meContact a{
     margin: 0 15px;
-    opacity: 0.7;
+    opacity: 1;
     transition: 0.3s;
 }
 .meContact a:hover{
-    opacity: 1;
+    opacity: 0.7;
 }
 .me{
     max-width: 200px;
-    border: 2px solid #333;
+    border: 4px solid blue;
     border-radius: 50%;
     justify-content: center;
     margin: 0;
 }
 #meHtml{
-    border: 3px solid rgb(212, 91, 10);
+    border: 4px solid rgb(212, 91, 10);
 }
 #meCss{
-    border: 3px solid rgb(51, 144, 231);
+    border: 4px solid rgb(51, 144, 231);
 }
 #meJs{
-    border: 3px solid rgb(213, 228, 13);
+    border: 4px solid rgb(213, 228, 13);
 }
 #meReact{
-    border: 3px solid rgb(118, 185, 224);
+    border: 4px solid rgb(118, 185, 224);
 }
 #meGit{
-    border: 3px solid rgb(212, 91, 10);
+    border: 4px solid rgb(231, 79, 52);
 }
 .skills{
     display: flex;
@@ -53,6 +52,7 @@ main{
     height: 55px;
 }
 .skills p{
+    font-style: italic;
     font-weight: bold;
     font-size: x-large;
     display: flex;
@@ -66,16 +66,22 @@ main{
     justify-content: center;
     text-align: center;
     align-items: center;
-    opacity: 0.7;
+    opacity: 1;
     transition: 0.3s;
     cursor: pointer;
 }
 .skills img:hover{
-    opacity: 1;
+    opacity: 0.7;
 }
 
 .resum{
     margin: 0 0 2rem 0;
+}
+.resum h1{
+    font-style: italic;
+}
+.meu-nome{
+    font-size: larger;
 }
 #texto{
     padding: 0.5rem;
@@ -152,4 +158,13 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.s{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 15px;
+    border-left: 4px solid blue;
+    border-right: 4px solid blue;
+    border-bottom: 4px solid blue;
 }

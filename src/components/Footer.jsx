@@ -9,18 +9,20 @@ const Footer = () => {
 const numero = "(74) 991022-0447"
   return (
     <footer>
-      <h2>Contatos</h2>
       <div className='footerContainer'>
-        
-        <div>
-          <a id='email' href = "mailto:airan.sousasantos@gmail.com"><MdMarkEmailUnread  id='em'/> airan.sousasantos@gmail.com</a>
-        </div>
+        <div className='contatos'>
+
+          <div>
+            <a id='email' href = "mailto:airan.sousasantos@gmail.com"><MdMarkEmailUnread  id='email'/>airan.sousasantos@gmail.com</a>
+          </div>
 
         
-        <div> 
+          <div> 
           
-          <p id='tel'> <FaWhatsappSquare />{numero}</p>  
-        </div>
+            <p id='tel'><FaWhatsappSquare id='whatsapp'/>{numero}</p>  
+          </div>
+
+          </div>
       </div>
     </footer>
   )

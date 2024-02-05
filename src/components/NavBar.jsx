@@ -1,14 +1,17 @@
 import React from 'react';
 import './NavBar.css';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
+
   return (
-    <nav>
+    <nav className='nav'>
         <ul className="navLinks">
-            <li><a href="#inicio">INICIO</a></li>
-            <li><a href="#projetos">PROJETOS</a></li>
-            <li><a href="#formacao">FORMAÇÃO ACADEMICA</a></li>
-            <li><a href="#contatos">CONTATOS</a></li>
+            <li><Link to="/">Início</Link></li>
+            <li><Link to="/Projetos">Projetos</Link></li>
+            <li><Link to="/FormaçãoAcademica">Formação Academica</Link></li>
+            <li><Link to="/Contatos">Contatos</Link></li>
         </ul>
     </nav>
   )

@@ -3,11 +3,11 @@ import { FiX } from "react-icons/fi";
 import './Home.css';
 import me from '../img/me.png';
 import { useState } from 'react';
+import Footer from './Footer';
 //resumo de uma linha sobre html
 
 const Home = () => {
-
-    const [texto, setTexto] = useState('');
+    const [texto, setTexto] = useState('Aqui estão algumas das minhas habilidades👆, estudo quase que diariamente para aprimorar e aumentar minhas habilidades como dev.');
     const [nomeDaClasse, setNomeDaClasse] = useState('s');
     const [nomeDaId, setNomeDaId] = useState('b');
     const [idMe, setIdMe] = useState('eu');
@@ -44,8 +44,6 @@ const Home = () => {
             setNomeDaClasse('spanInfoGit')
             setNomeDaId('spanBtn')
             setIdMe('meGit')
-        }else if(event.target === spanBtn){
-            setNomeDaId('hideBtn')
         }else{
             return
         } 
@@ -59,17 +57,16 @@ const Home = () => {
     return(
         <main>
             <div className="meContainer">
-                <img id={idMe} className="me" src={me} alt="Me"/>
+                <img id={idMe} className="me" src={me} alt="Me" title='Airan Santos'/>
                 
                 <div className="meContact">
-                
                     <a title="GitHub" href = "https://github.com/airansantos" target="_blank"><img height="50"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" target="_blank" alt="GitHub"/></a>
                     <a title="Linkedin" href = "https://www.linkedin.com/in/airan-santos-23087b233" target="_blank"><img height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" target="_blank" alt="Linkedin"/></a> 
                 </div>
 
                 <div className="resum">
-                    <h1>Front-End developer👋</h1>
-                    <p>Hi,i'm <b>Airan Santos</b>. A passionate Front-end Developer based in Bahia, Brazil📍.</p>
+                    <h1>Desenvolvedor Web de Front-End👋</h1>
+                    <p>Olá, eu sou <b className='meu-nome'>Airan Santos</b>. Um desenvolvedor Front-end apaixonado por tecnologia que mora na Bahia, Brasil📍.</p>
                 </div>
             
                 <div className="skills">
@@ -83,7 +80,7 @@ const Home = () => {
                 <div>
                     <div className={nomeDaClasse}>
                         <span id='texto'>{texto}</span>
-                        <button onClick={handleClick} id={nomeDaId} className='spanBtn'><FiX/></button> 
+                         
                     </div>  
                 </div>
 
@@ -93,3 +90,4 @@ const Home = () => {
 }
 
 export default Home;
+//<button onClick={handleClick} id={nomeDaId} className='spanBtn'><FiX/></button>

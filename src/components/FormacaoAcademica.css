@@ -1,0 +1,57 @@
+.formacao-container{
+    margin: 2rem 0;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-self: center;
+}
+.facul-container{
+    margin: 2rem 2rem 0 2rem;
+    padding: 1rem;
+    display: flex;
+    max-width: 900px;
+    align-self: center;
+}
+.facul-container img{
+    width: 70%;
+}
+.text-container{
+    margin-right: 1rem;
+}
+.text-container h2{
+    font-style: italic;
+    text-align: justify;
+    margin-bottom: 3rem;
+}
+.text-container p{
+    text-align: justify;
+}
+
+
+
+
+#cursos-title{
+    margin: 3rem 0;
+    font-size: xx-large;
+    text-align: center;
+    padding: 1rem;
+    font-style: italic;
+}
+
+
+
+.cursos{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+.curso-container{
+    margin-top: 1rem;
+    padding: 1rem;
+    display: flex;
+    max-width: 900px;
+}
+.curso-container img{
+    width: 70%;
+}
