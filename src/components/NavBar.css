@@ -13,6 +13,7 @@ li{
     list-style: none;
 }
 li a{
+    padding: 5px 0;
     font-size: 1rem;
     font-weight: bold;
     text-decoration: none;
@@ -26,4 +27,9 @@ li a:hover{
     nav ul{
         display: none;
     }
+}
+.active{
+    color: gray;
+    opacity: 0.7;
+    
 }

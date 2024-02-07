@@ -46,7 +46,7 @@ const FormacaoAcademica = () => {
         </div>
 
       </div>
-      <Footer/>
+      
     </div>
   )
 }

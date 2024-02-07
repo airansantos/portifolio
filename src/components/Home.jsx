@@ -61,7 +61,7 @@ const Home = () => {
                 
                 <div className="meContact">
                     <a title="GitHub" href = "https://github.com/airansantos" target="_blank"><img height="50"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" target="_blank" alt="GitHub"/></a>
-                    <a title="Linkedin" href = "https://www.linkedin.com/in/airan-santos-23087b233" target="_blank"><img height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" target="_blank" alt="Linkedin"/></a> 
+                    <a title="Linkedin" href = "https://www.linkedin.com/in/airan-santos-23087b233" target="_blank"><img height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" target="_blank" alt="Linkedin"/></a> 
                 </div>
 
                 <div className="resum">

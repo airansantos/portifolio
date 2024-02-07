@@ -1,17 +1,16 @@
 import React from 'react';
 import './NavBar.css';
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 const NavBar = () => {
 
   return (
     <nav className='nav'>
         <ul className="navLinks">
-            <li><Link to="/">Início</Link></li>
-            <li><Link to="/Projetos">Projetos</Link></li>
-            <li><Link to="/FormaçãoAcademica">Formação Academica</Link></li>
-            <li><Link to="/Contatos">Contatos</Link></li>
+            <li><NavLink activeClassName="active" to="/">Início</NavLink></li>
+            <li><NavLink activeClassName="active" to="/Projetos">Projetos</NavLink></li>
+            <li><NavLink activeClassName="active" to="/FormaçãoAcademica">Formação Academica</NavLink></li>
+            <li><NavLink activeClassName="active" to="/Contatos">Contatos</NavLink></li>
         </ul>
     </nav>
   )

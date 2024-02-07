@@ -13,7 +13,7 @@ const Projects = () => {
         <div className='projeto'>
           <div className='text-projeto'>
             <h2>Calculadora Hidropônica</h2>
-            <p>Projeto realizado para auxiliar na manutençao da soluçao hidroponica</p>
+            <p>Projeto realizado no inicio dos meus estudos para auxiliar na manutenção da solução hidroponica</p>
             <div className='skills-projeto'>
               <p>Tecnologias Ultilizadas:</p>
               <img title="HTML"  align="center" alt="Airan-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"/>
@@ -23,8 +23,8 @@ const Projects = () => {
           </div>
           <img className='img-projeto' src={hidro} alt="Calculadora Hidropônica" />
           <div className='links-projeto'>
-            <a title="GitHub" href = "https://github.com/airansantos" target="_blank"><img height="50"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" target="_blank" alt="GitHub"/></a>
-            <a className='ver-btn' href="./Projetos/index.html" target='blank'>Ver Projeto...</a>
+            <a title="GitHub" href = "https://github.com/airansantos/calculadora_hidroponica" target="_blank"><img height="50"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" target="_blank" alt="GitHub"/></a>
+            <a className='ver-btn' href="https://airansantos.github.io/calculadora_hidroponica/" target='blank'>Ver Projeto...</a>
           </div>
         </div>
       
@@ -44,7 +44,7 @@ const Projects = () => {
           </div>
           <img className='img-projeto' src={costs} alt="Calculadora de IMC" />
           <div className='links-projeto'>
-            <a title="GitHub" href = "https://github.com/airansantos" target="_blank"><img height="50"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" target="_blank" alt="GitHub"/></a>
+            <a title="GitHub" href = "https://github.com/airansantos/projeto-react-costs-curso-youtube" target="_blank"><img height="50"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" target="_blank" alt="GitHub"/></a>
             <a className='ver-btn' href="./Projetos/index.html" target='blank'>Ver Projeto...</a>
           </div>
         </div>
@@ -66,14 +66,13 @@ const Projects = () => {
           </div>
           <img className='img-projeto' src={imc} alt="Calculadora de IMC" />
           <div className='links-projeto'>
-            <a title="GitHub" href = "https://github.com/airansantos" target="_blank"><img height="50"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" target="_blank" alt="GitHub"/></a>
+            <a title="GitHub" href = "https://github.com/airansantos/imc-calc" target="_blank"><img height="50"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" target="_blank" alt="GitHub"/></a>
             <a className='ver-btn' href="./Projetos/index.html" target='blank'>Ver Projeto...</a>
           </div>
         </div>
       
 
       </div>
-      <Footer/>
     </>
   )
 }
