@@ -3,6 +3,7 @@ import diploma from '../img/diploma.jpg';
 import front from '../img/front.png';
 import etica from '../img/etica.png';
 import segurança from '../img/segurança.png';
+import nlw from '../img/nlw.png'
 import Footer from './Footer';
 import './FormacaoAcademica.css'
 
@@ -20,6 +21,14 @@ const FormacaoAcademica = () => {
       <h2 id='cursos-title'>Cursos de Capacitação e Aperfeiçoamanto👇</h2>
 
       <div className='cursos'>
+
+        <div className='curso-container'>
+          <div className='text-container'>
+            <h2>Evento NLW Expert</h2>
+            <p>A NLW é um evento de conteúdos gratuitos voltados para programação, tendo o código como matéria fundamental desde o primeiro dia. Um evento de impacto que pode abrir portas para quem busca programar uma rota de sucesso em sua carreira em TI.</p>
+          </div>
+          <img src={nlw} alt="Certificado" />
+        </div>
         
         <div className='curso-container'>
           <div className='text-container'>

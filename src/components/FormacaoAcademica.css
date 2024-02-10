@@ -54,3 +54,42 @@
 .curso-container img{
     width: 70%;
 }
+
+
+
+
+
+@media(max-width: 700px){
+    
+    
+    .facul-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .facul-container img{
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .cursos{
+        padding:0;
+        margin: 0;
+        width: 100%;
+    }
+    
+    .curso-container{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+    .curso-container img{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .text-container{
+        width: 100%;
+        }
+    .text-container h2{
+        text-align: center;
+    }
+
+}

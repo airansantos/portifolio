@@ -86,4 +86,12 @@
     font-size:xx-large;
 }
 
+@media(max-width: 450px){
+    .contacts-container{
+        width: 100%;
+    }
+    .contacts-main{
+        width: 100%;
+    }
+}
 

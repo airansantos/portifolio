@@ -13,7 +13,7 @@ const Projects = () => {
         <div className='projeto'>
           <div className='text-projeto'>
             <h2>Calculadora Hidropônica</h2>
-            <p>Projeto realizado no inicio dos meus estudos para auxiliar na manutenção da solução hidroponica</p>
+            <p>Projeto realizado no início dos meus estudos para auxiliar na manutenção da solução hidroponica.</p>
             <div className='skills-projeto'>
               <p>Tecnologias Ultilizadas:</p>
               <img title="HTML"  align="center" alt="Airan-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"/>

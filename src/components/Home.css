@@ -168,3 +168,16 @@ main{
     border-right: 4px solid rgb(33, 125, 211);
     border-bottom: 4px solid rgb(33, 125, 211);
 }
+
+
+@media(max-width: 400px){
+    .meContainer{
+        width: 100%;
+    }
+    .skills img{
+        margin:0;
+    }
+    .skills p{
+        font-size: large;
+    }
+}
