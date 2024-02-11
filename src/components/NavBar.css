@@ -23,13 +23,16 @@ li a{
 li a:hover{
     color: gray;
 }
-@media(max-width: 700px){
-    nav ul{
-        display: none;
-    }
-}
 .active{
     color: gray;
     opacity: 0.7;
     
+}
+
+
+
+@media(max-width: 700px){
+    nav ul{
+        display: none;
+    }
 }

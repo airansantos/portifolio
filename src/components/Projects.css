@@ -53,3 +53,21 @@
 .text-projeto h2,p{
     margin: 0 1rem;
 }
+@media(max-width: 1600px){
+    .projetos{
+        justify-content: center;
+    }
+
+}
+@media(max-width: 900px){
+    .projeto{
+        padding: 1rem 0;
+        width: 100%;
+        justify-content: center;
+        margin: 1rem 0;
+    }
+    .projetos{
+        margin: 0 1rem;
+    }
+}
+

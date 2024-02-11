@@ -21,7 +21,7 @@ const Projects = () => {
               <img  title="JavaScript"  align="center" alt="Airan-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"/>
             </div>
           </div>
-          <img className='img-projeto' src={hidro} alt="Calculadora Hidropônica" />
+          <img title="Projeto" className='img-projeto' src={hidro} alt="Calculadora Hidropônica" />
           <div className='links-projeto'>
             <a title="GitHub" href = "https://github.com/airansantos/calculadora_hidroponica" target="_blank"><img height="50"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" target="_blank" alt="GitHub"/></a>
             <a className='ver-btn' href="https://airansantos.github.io/calculadora_hidroponica/" target='blank'>Ver Projeto...</a>
@@ -42,7 +42,7 @@ const Projects = () => {
               <img title="React" id="airanReact" align="center" alt="Airan-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"/>
             </div>
           </div>
-          <img className='img-projeto' src={costs} alt="Calculadora de IMC" />
+          <img title="Projeto" className='img-projeto' src={costs} alt="Calculadora de IMC" />
           <div className='links-projeto'>
             <a title="GitHub" href = "https://github.com/airansantos/projeto-react-costs-curso-youtube" target="_blank"><img height="50"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" target="_blank" alt="GitHub"/></a>
             <a className='ver-btn' href="./Projetos/index.html" target='blank'>Ver Projeto...</a>
@@ -64,7 +64,7 @@ const Projects = () => {
               <img title="React" id="airanReact" align="center" alt="Airan-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"/>
             </div>
           </div>
-          <img className='img-projeto' src={imc} alt="Calculadora de IMC" />
+          <img title="Projeto"  className='img-projeto' src={imc} alt="Calculadora de IMC" />
           <div className='links-projeto'>
             <a title="GitHub" href = "https://github.com/airansantos/imc-calc" target="_blank"><img height="50"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" target="_blank" alt="GitHub"/></a>
             <a className='ver-btn' href="./Projetos/index.html" target='blank'>Ver Projeto...</a>

@@ -15,7 +15,7 @@ const FormacaoAcademica = () => {
           <h2>Graduação em Análise e Desenvolvimento de Sistemas</h2>
           <p>A faculdade de Análise e Desenvolvimento de Sistemas capacita os estudantes para compreender, projetar e implementar soluções tecnológicas inovadoras. Ao explorar programação, banco de dados e engenharia de software, os alunos adquirem habilidades essenciais para atuar no desenvolvimento e aprimoramento de sistemas computacionais, preparando-se para desafios dinâmicos no campo da tecnologia da informação</p>
         </div>
-        <img src={diploma} alt="Diploma" />
+        <img title="Diploma" src={diploma} alt="Diploma" />
       </div>
 
       <h2 id='cursos-title'>Cursos de Capacitação e Aperfeiçoamanto👇</h2>
@@ -27,7 +27,7 @@ const FormacaoAcademica = () => {
             <h2>Evento NLW Expert</h2>
             <p>A NLW é um evento de conteúdos gratuitos voltados para programação, tendo o código como matéria fundamental desde o primeiro dia. Um evento de impacto que pode abrir portas para quem busca programar uma rota de sucesso em sua carreira em TI.</p>
           </div>
-          <img src={nlw} alt="Certificado" />
+          <img title="Certificado" src={nlw} alt="Certificado" />
         </div>
         
         <div className='curso-container'>
@@ -35,7 +35,7 @@ const FormacaoAcademica = () => {
             <h2>Formação Front-end - HTML, CSS, JavaScript, React e +</h2>
             <p>O curso de Front-End com HTML, CSS, JavaScript, React e um pouquinho de TypeScript oferece uma abordagem abrangente para capacitar os alunos na criação de interfaces web modernas e interativas. Ao explorar os fundamentos do desenvolvimento web com HTML e CSS, além de aprofundar-se nas dinâmicas de interação com JavaScript e React, os participantes adquirem as habilidades essenciais para projetar e construir experiências de usuário envolventes e responsivas.</p>
           </div>
-          <img src={front} alt="Certificado" />
+          <img title="Certificado" src={front} alt="Certificado" />
         </div>
 
         <div className='curso-container'>
@@ -43,7 +43,7 @@ const FormacaoAcademica = () => {
             <h2>Ética no Desenvolvimento de Sistemas</h2>
             <p>O curso sobre Ética no Desenvolvimento de Sistemas proporciona uma compreensão aprofundada das questões éticas enfrentadas pelos profissionais de tecnologia. Explorando dilemas morais e melhores práticas, os participantes são capacitados a desenvolver sistemas inovadores com responsabilidade e consideração pelos impactos sociais e éticos.</p>
           </div>
-          <img src={etica} alt="Certificado" />
+          <img title="Certificado" src={etica} alt="Certificado" />
         </div>
 
         <div className='curso-container'>
@@ -51,7 +51,7 @@ const FormacaoAcademica = () => {
             <h2>Segurança em Tecnologia da Informação</h2>
             <p>O curso de Segurança em Tecnologia da Informação capacita profissionais a implementar estratégias robustas de proteção de dados e sistemas, abordando ameaças cibernéticas e promovendo práticas defensivas eficazes. Os participantes adquirem habilidades essenciais para salvaguardar informações críticas em ambientes digitais.</p>
           </div>
-          <img src={segurança} alt="certificado" />
+          <img title="Certificado" src={segurança} alt="certificado" />
         </div>
 
       </div>
