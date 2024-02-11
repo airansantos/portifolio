@@ -7,7 +7,7 @@ import Footer from './Footer';
 //resumo de uma linha sobre html
 
 const Home = () => {
-    const [texto, setTexto] = useState('Aqui estão algumas das minhas habilidades👆, estudo quase que diariamente para aprimorar e aumentar minhas habilidades como dev.');
+    const [texto, setTexto] = useState('Sou um desenvolvedor web freelancer e frequentemente desenvolvo alguns projetos pessoais. Confira acima algumas das minhas habilidades.👆');
     const [nomeDaClasse, setNomeDaClasse] = useState('s');
     const [nomeDaId, setNomeDaId] = useState('b');
     const [idMe, setIdMe] = useState('eu');

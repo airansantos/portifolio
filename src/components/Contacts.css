@@ -85,6 +85,21 @@
     margin-right: 10px;
     font-size:xx-large;
 }
+#curruculo{
+    margin-top: 2rem;
+    text-align: center;
+}
+#curr{
+    text-decoration: none;
+    font-style: italic;
+    color: #fff;
+    font-size: larger;
+    font-weight: bold;
+    transition: 0.3s;
+}
+#curr:hover{
+    color: gray;
+}
 
 @media(max-width: 450px){
     .contacts-container{

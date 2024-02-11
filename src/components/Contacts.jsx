@@ -1,6 +1,8 @@
 import React from 'react'
 import{FaWhatsappSquare} from"react-icons/fa";
 import { MdMarkEmailUnread } from "react-icons/md";
+
+import { BsFiletypePdf } from "react-icons/bs";
 import './Contacts.css';
 import meCont from '../img/meCont.jfif'
 const Contacts = () => {
@@ -19,8 +21,9 @@ const Contacts = () => {
           <h2>Contato Profissional👇</h2>
           <a className='email' href = "mailto:airan.sousasantos@gmail.com" target='blank'><MdMarkEmailUnread id='emi'/>airan.sousasantos@gmail.com</a>
           <a className='tel' href='https://wa.me/+557499100447' target='blank'><FaWhatsappSquare id='what' />{numero}</a>
+          
         </div>
-
+        <div id='curruculo'><a id="curr" href="../public/AIRAN_SANTOS_Front-end.pdf" download>Download Currículo<BsFiletypePdf /></a></div>
       </div>
     </div>
   )
