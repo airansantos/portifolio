@@ -23,7 +23,6 @@ function App() {
           <Route path="/Contatos" element={<Contacts />}></Route>
         </Routes>
       </Router>
-      <Home/>
     </>
   )
 }
