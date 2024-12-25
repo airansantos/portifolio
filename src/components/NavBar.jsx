@@ -13,7 +13,7 @@ const NavBar = () => {
   return (
     <nav className={`nav ${isOpen ? 'is-open' : ""}`}>
         <ul className={`navLinks ${isOpen ? 'is-open' : ""}`}>
-            <li><NavLink activeClassName="active" className="active" to="/">Início</NavLink></li>
+            <li><NavLink activeClassName="active" to="/">Início</NavLink></li>
             <li><NavLink activeClassName="active" to="/Projetos">Projetos</NavLink></li>
             <li><NavLink activeClassName="active" to="/FormaçãoAcademica">Formação Academica</NavLink></li>
             <li><NavLink activeClassName="active" to="/Contatos">Contatos</NavLink></li>
